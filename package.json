@@ -1,0 +1,24 @@
+{
+  "name": "cypress_templ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "cy:headless": "npx cypress run --headless",
+    "cy:run:chrome": "npx cypress run --browser chrome",
+    "cy:run:firefox": "npx cypress run --browser firefox",
+    "allure:generation": "allure serve allure-results",
+    "allure:open": "allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "allure-cypress": "^3.0.7",
+    "cypress": "^13.16.1",
+    "dotenv": "^16.4.7"
+  }
+}
